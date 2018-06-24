@@ -87,6 +87,7 @@ class Game extends Component {
   }
 
   render() {
+    console.log(friendData);
     return (
       <Grid centered padded>
         <TopBar score={this.state.score} topScore={this.state.topScore}/>
